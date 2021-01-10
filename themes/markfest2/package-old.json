@@ -1,0 +1,27 @@
+{
+  "name": "hugopipes-tailwindcss",
+  "version": "1.0.0",
+  "description": "The Repo is a working example of Hugo's Pipes functionality using TailwindCSS and PurgeCSS.",
+  "main": "postcss.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budparr/hugopipes-tailwindcss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/budparr/hugopipes-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/budparr/hugopipes-tailwindcss#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0",
+    "postcss-import": "^13.0.0",
+    "tailwindcss": "^2.0.1"
+  }
+}

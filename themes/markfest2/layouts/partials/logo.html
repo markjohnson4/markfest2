@@ -1,0 +1,18 @@
+<div class="logo p-8">
+    <div class="big-words-stacked">
+    <div class="big-words">
+        {{ $letters1 := .Site.Data.logo.lineLetters1 }}
+        {{ range $elem_index, $elem_val :=  $letters1 }}
+        <span class="logo-letter logo-letter-{{ add $elem_index 1 }}">{{ $elem_val }}</span>
+        {{ end }}
+    
+    </div>
+    <div class="big-words">
+        {{ $letters2 := .Site.Data.logo.lineLetters2 }}
+        {{ range $elem_index, $elem_val :=  $letters2}}
+        <span class="logo-letter logo-letter-{{ add $elem_index (add (len $letters1) 1)  }}">{{ $elem_val }}</span>
+        {{ end }}
+    </div>
+</div>
+<div class="bigger-number"><span class="logo-letter logo-letter-{{ add 1 (add (len $letters1) (len $letters2))  }}">{{.Site.Data.logo.finalNumber}}</span></div>
+</div>

@@ -1,0 +1,16 @@
+{{- define "main" }}
+    <div class="single">
+        <div class="container">
+            <a href="/" class="homeLink">&larr; Home</a>
+            <div class="leader">
+                <h1>{{ .Title }}</h1>
+                <p>{{ dateFormat "Monday, Jan 2, 2006" .Params.event_date  }}</p>
+                <p>{{ .Params.event_start_time }} - {{ .Params.event_end_time }}</p>
+            </div>
+            
+            <br>
+            {{ .Content }}
+        </div>
+    </div>
+    
+{{- end }}

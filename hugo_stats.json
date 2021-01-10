@@ -1,0 +1,50 @@
+{
+  "htmlElements": {
+    "tags": [
+      "!doctype",
+      "a",
+      "body",
+      "code",
+      "div",
+      "h1",
+      "head",
+      "html",
+      "li",
+      "link",
+      "meta",
+      "noscript",
+      "ol",
+      "script",
+      "span",
+      "style",
+      "title",
+      "ul"
+    ],
+    "classes": [
+      "big-words",
+      "big-words-stacked",
+      "bigger-number",
+      "home",
+      "logo",
+      "logo-letter",
+      "n1",
+      "n2",
+      "n3",
+      "n4",
+      "n5",
+      "n6",
+      "n7",
+      "n8",
+      "n9",
+      "p-8",
+      "taxonomy"
+    ],
+    "ids": [
+      "client-questions--answers",
+      "content",
+      "project-finish",
+      "project-start",
+      "quick-site-setup"
+    ]
+  }
+}

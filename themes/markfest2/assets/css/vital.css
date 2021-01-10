@@ -1,0 +1,281 @@
+:root {
+    --logo-shadow-wh: 0.1em;
+    --bg:#579d8d;
+    --logo-color:#f3d46d; 
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+}
+body {
+    background: var(--bg);
+}
+@keyframes letterPop {
+    from {
+        text-shadow: -2px 2px #000;
+        top: 2px;
+        right: 2px;
+        color: var(--logo-color);
+    }
+    
+    50% {
+        text-shadow: calc(-1 * var(--logo-shadow-wh)) var(--logo-shadow-wh) #000;
+        top: calc(-1 * var(--logo-shadow-wh));
+        right: calc(-1 * var(--logo-shadow-wh));
+        
+    }
+    to {
+        text-shadow: -2px 2px #000;
+        top: 2px;
+        right: 2px;
+        color: var(--logo-color);
+    }
+}
+
+@keyframes numberPop {
+    from {
+        opacity: 1;
+        transform: scale(1.0);
+        color: var(--logo-color);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    
+   
+    to {
+        opacity: 1;
+        transform: scale(1.0);
+        color: var(--logo-color);
+    }
+}
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.logo {
+    display: inline-flex;
+    line-height: 1;
+    font-size: 10rem;
+    color: var(--logo-color);
+    @media screen and (max-width: 768px) {
+        font-size: 21vw;
+        margin: 0 auto;
+
+    }
+}
+.big-words {
+    font-size: 1em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo-letter {
+
+    position: relative;
+    
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    text-shadow: -2px 2px #000;
+        top: 2px;
+        right: 2px;
+        color: var(--logo-color);
+}
+.logo:hover .big-words .logo-letter {
+    animation-name: letterPop;
+}
+.logo:hover  .bigger-number {
+    animation-name: numberPop;
+}
+/*
+
+*/
+
+@for $i from 1 to 8 {
+    .logo-letter-$i {
+        animation-delay: calc($i * 0.05s);
+    }
+}
+.logo-letter-9 {
+    
+}
+.logo-letter-9 {
+   color: currentColor;
+}
+.logo-letter:hover {
+
+    
+}
+.bigger-number {
+
+    font-size: 2em;
+    margin: 0 0 0 0.1em;
+    text-shadow: -2px 2px #000;
+        top: 2px;
+        right: 2px;
+    
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+.home-wrap {
+    padding: 1rem;
+}
+.home-layout {
+    margin: -1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+        justify-content: center;
+
+
+    }
+}
+.home-layout > * {
+    padding: 1rem;
+}
+.event-wrap {
+
+}
+@mixin buttonPull($amount) {
+    top: calc($amount * -1);
+    right: calc($amount * -1);
+    box-shadow: calc($amount * -1) $amount 0 rgba(0, 0, 0, 0.5);
+
+}
+.event-bubble {
+    font-size: 15rem;
+
+    width: 1em;
+    height: 1em;
+
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+    text-align: center;
+    text-decoration: none;
+    margin: 1rem;
+
+
+    position: relative;
+    @include buttonPull(20px);
+
+    @media screen and (max-width: 768px) {
+        font-size: 40vw;
+
+
+    }
+
+}
+.event-bubble div {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2rem;
+}
+.event-bubble span {
+    font-size: 0.14em;
+}
+a.event-bubble:hover, 
+a.event-bubble:focus {
+    @include buttonPull(16px);
+    outline: 0;
+    > div {
+        background: rgba(0, 0, 0, 0.05);
+    }
+}
+a.event-bubble:active {
+    @include buttonPull(5px);
+}
+
+
+
+.container {
+    max-width: 36rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.single {
+    padding: 2rem 0;
+}
+.leader {
+    text-align: center;
+    border-color: currentColor;
+    border-width: 10px 0;
+    border-style: solid;
+    font-size: 1.5rem;
+}
+h1 {
+    font-size: 3rem;
+}
+
+.homeLink {
+    display: inline-block;
+    margin: 0 0 1rem;
+    text-decoration: none;
+    color: currentColor;
+    opacity: 0.8;
+
+}
+.homeLink:hover {
+    opacity: 1;
+}
+
+.theme-2021-01-22 {
+    background-color:#f9d3d3;
+    color: darkmagenta;
+}
+.theme-2021-01-23 {
+    background-color:#c4ccd7;
+    color: navy;
+}
+.theme-2021-01-24 {
+    background-color:#b9d7be;
+    color:#3241b0;
+    
+}
+
+.event-bubble-key {
+    position: relative;
+    margin: 0 0 4rem;
+    font-size: 30rem;
+    height: 0.903em;
+    width: 1em;
+    .event-bubble {
+        position: absolute;
+        @include buttonPull(5px);
+        &:nth-child(1) {
+            top: 0;
+            left: 0;
+            right: auto;
+        }
+        &:nth-child(2) {
+            top:0;
+            right: 0;
+        }
+        &:nth-child(3) {
+            bottom: 0;
+            margin: 0 auto;
+            top: auto;
+            left: 0;
+            right: 0;
+        }
+        
+    }
+}

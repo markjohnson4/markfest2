@@ -1,0 +1,16 @@
+{{- define "main" }}
+<div class="home-wrap">
+<div class="home-layout">
+    {{- partial "logo.html" . -}}
+    {{- partial "bubble-key.html" . -}}
+    
+    {{ $pages := where .Site.RegularPages "Type" "event" }}
+    {{ range $pages  }}
+    <a class="event-bubble theme-{{ .Params.event_date }}" href="{{.Permalink}}">
+      <div><span>{{.Title}}<br /><small>{{ .Params.event_time }}</small></span></div></a>
+    {{- end -}}
+</div>
+
+
+</div>
+{{- end }}  
