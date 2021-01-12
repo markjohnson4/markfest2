@@ -1,21 +1,22 @@
 ---
 title: "Vegan Feast Contest"
 date: 2020-12-27T13:53:32-06:00
-draft: true
-event_date: 2021-01-23
+
+event_date: 2021-01-30
 event_time: 7-9 PM
 weight: 6
 ---
 
-Each participant will make a vegan feast for themselves using less than $20 of ingredients.
+Want to encourage yourself to eat more vegan things without breaking the bank?!
 
-We'll all start cooking at the same time so we can enjoy hanging out while feast-prepping and learn some about each other's recipes.  Everyone will have one hour to make their feast*.
+Then join this contest!
 
-At the end I will grant winners in the following categories:
+Each participant will make a vegan feast for themselves using less than $20 of ingredients (excluding spices).  Plan your cooking so that you can comfortably jump in our Discord channel at 7pm and finish creating your feast by 8pm.  We'll then eat together!
+
+I will declare winners in the following categories:
 
 * Fanciest
 * Greatest Quantity
 * Most Inventive
 * Most Likely to be Made by Me
 
-\* Excluding essential prep like letting bread dough rise or beans soak, etc.

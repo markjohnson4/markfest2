@@ -1,14 +1,16 @@
 ---
 title: "Dancing Songs Altar"
 date: 2021-01-03T13:06:29-06:00
-draft: true
-event_date: 2021-01-23
+
+event_date: 2021-01-30
 event_time: 4:30-6 PM
 weight: 5
 ---
 
+Want to enjoy dancing to a playlist catered to me?!  Want to get a prize for accurately predicting what I'll like?!
 
+Submit a Youtube link to a song that you think I'll want to dance to [here](https://docs.google.com/forms/d/e/1FAIpQLSfFexzRSWjJOLtJc6iHUP2SNJw29E9GvhGRhA9x9RhdLE2elg/viewform) sometime before the start of Mark Fest.  Then reach out to me to let me know you're participating in this event.
 
-Send me a youtube link for a piece of music that you like that you i'll want to have in a dance playlist!  I'll then create a youtube playlist, share it with everyone who submitted a song, and then we'll listen to all the songs at the same time.
+I'll then create a youtube playlist of all the links and share the link to it with all participants on a special Discord channel.  We will check in with each other at the start of this event, leave to dance to the playlist, and then return for prizes.
 
-Afterwards I'll pick my favorite song and whoever submitted it will win a $10 [Bandcamp](https://bandcamp.com/) gift card!
+Whoever submitted my favorite new-to-me song will win a $20 [Bandcamp](https://bandcamp.com/) gift card!  Whoever submitted my favorite old-to-me song will win a $5 iTunes gift card.

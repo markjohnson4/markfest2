@@ -236,7 +236,7 @@ body {
 }
 
 .home-wrap {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .home-layout {
@@ -280,10 +280,10 @@ body {
   box-shadow: calc(20px * -1) 20px 0 rgba(0, 0, 0, 0.5)
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
 .event-bubble {
-    font-size: 40vw
+    font-size: 12rem
 }
   }
 
@@ -360,17 +360,17 @@ h1 {
   opacity: 1;
 }
 
-.theme-2021-01-22 {
+.theme-2021-01-29 {
   background-color:#f9d3d3;
   color: darkmagenta;
 }
 
-.theme-2021-01-23 {
+.theme-2021-01-30 {
   background-color:#c4ccd7;
   color: navy;
 }
 
-.theme-2021-01-24 {
+.theme-2021-01-31 {
   background-color:#b9d7be;
   color:#3241b0;
 }
@@ -380,8 +380,24 @@ h1 {
   margin: 0 0 4rem;
   font-size: 30rem;
   height: 0.903em;
-  width: 1em;
+  width: 1em
 }
+
+@media only screen and (max-width: 767px) {
+
+.event-bubble-key {
+    font-size: 20rem
+}
+  }
+
+@media only screen and (max-width: 340px) {
+
+.event-bubble-key {
+    margin-right: -1.5rem;
+
+    margin-left: -1.5rem
+}
+  }
 
 .event-bubble-key .event-bubble {
     position: absolute;
@@ -391,6 +407,12 @@ h1 {
 
   box-shadow: calc(5px * -1) 5px 0 rgba(0, 0, 0, 0.5)
   }
+
+@media only screen and (max-width: 767px) {
+  .event-bubble-key .event-bubble {
+      font-size: 10rem
+  }
+    }
 
 .event-bubble-key .event-bubble:nth-child(1) {
       top: 0;
@@ -410,3 +432,32 @@ h1 {
       left: 0;
       right: 0;
     }
+
+li + li {
+  margin-top: 1rem;
+}
+
+li a, p a {
+    color: inherit;
+  }
+
+#content {
+  min-height: calc(100vh - 7rem);
+}
+
+.site-footer {
+  background: rgba(0, 0, 0, 0.8);
+  margin-top: 3rem;
+  height: 4rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer a {
+    margin: 0.5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
