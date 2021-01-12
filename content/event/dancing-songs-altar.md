@@ -7,6 +7,8 @@ event_time: 4:30-6 PM
 weight: 5
 ---
 
-Send me a youtube link for a piece of music that you like that you think will make want to dance!  I'll then create a youtube playlist, share it with everyone who submitted a song, and then we'll listen to all the songs at the same time.
+
+
+Send me a youtube link for a piece of music that you like that you i'll want to have in a dance playlist!  I'll then create a youtube playlist, share it with everyone who submitted a song, and then we'll listen to all the songs at the same time.
 
 Afterwards I'll pick my favorite song and whoever submitted it will win a $10 [Bandcamp](https://bandcamp.com/) gift card!
