@@ -1,5 +1,5 @@
 baseURL = "https://markjohnson4.github.io/markfest2/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Mark Fest 2"
 theme = "markfest2"
 publishDir = "docs"
