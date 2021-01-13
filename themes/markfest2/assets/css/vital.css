@@ -91,10 +91,6 @@ body {
 .logo:hover  .bigger-number {
     animation-name: numberPop;
 }
-/*
-
-*/
-
 @for $i from 1 to 8 {
     .logo-letter-$i {
         animation-delay: calc($i * 0.05s);
