@@ -6,7 +6,7 @@
                 <h1>{{ .Title }}</h1>
                 {{ if .Params.event_time }}
                 <p>{{ dateFormat "Monday, Jan 2, 2006" .Params.event_date  }}</p>
-                <p>{{ .Params.event_time }}</p>
+                <p>{{ .Params.event_time }} CST</p>
                 {{ end }}
             </div>
             

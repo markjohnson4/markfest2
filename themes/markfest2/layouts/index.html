@@ -7,7 +7,7 @@
     {{ $pages := where .Site.RegularPages "Type" "event" }}
     {{ range $pages  }}
     <a class="event-bubble theme-{{ .Params.event_date }}" href="{{.Permalink}}">
-      <div><span>{{.Title}}<br /><small>{{ .Params.event_time }}</small></span></div></a>
+      <div><span>{{.Title}}<br /><small>{{ .Params.event_time }} CST</small></span></div></a>
     {{- end -}}
     </nav>
 
