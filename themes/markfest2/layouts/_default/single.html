@@ -1,7 +1,7 @@
 {{- define "main" }}
     <div class="single">
         <div class="container">
-            <a href="/" class="homeLink">&larr; Home</a>
+            <a href="{{ .Site.BaseURL }}" class="homeLink">&larr; Home</a>
             <div class="leader">
                 <h1>{{ .Title }}</h1>
                 {{ if .Params.event_time }}

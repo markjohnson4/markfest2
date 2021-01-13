@@ -1,4 +1,4 @@
-baseURL = "https://markjohnson4.github.io/markfest2"
+baseURL = "https://markjohnson4.github.io/markfest2/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "markfest2"
