@@ -11,7 +11,7 @@ Do you want to participate in a social experiment I invented?!
 
 The setup is that I'll write down some stuff I did recently and then read it out loud to the group - but in a flat tone so that I don't reveal any of my attitudes about any detail.
 
-In between statements, participants will be encouraged to respond in the format "that sounds ___" where the "___" is an an experience-word like "fun", "disgusting", "tedius", etc.  Participants are encouraged to collectively generate a variety of experience-words.  At the end, I'll award a $10 iTunes gift card for whoever I felt was the MVP of the experiment (participating with a fun energy).
+In between statements, participants will be encouraged to respond in the format "that sounds [feeling word] (like "fun", "disgusting", "tedius", etc.)Participants are encouraged to collectively generate a variety of experience-words.  At the end, I'll award a $10 iTunes gift card for whoever I felt was the MVP of the experiment (participating with a fun energy).
 
 ## Why
 
