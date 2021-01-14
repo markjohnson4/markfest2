@@ -1,0 +1,18 @@
+<div class="prevNextBar">
+    <div>
+    {{ with .Site.RegularPages.Next . }}
+    {{ if eq .Type "event" }}
+        <h4>Previous Event</h4>
+        <a href="{{.Permalink}}" class="theme-{{ .Params.event_date }}">{{.Title}}</a>
+    {{ end }} 
+    {{end}}
+</div>
+<div>
+    {{ with .Site.RegularPages.Prev .  }}
+        {{ if eq .Type "event" }}
+        <h4>Next Event</h4>
+            <a href="{{.Permalink}}" class="theme-{{ .Params.event_date }}">{{.Title}}</a>
+        {{ end }}    
+    {{end}}
+</div>
+</div>

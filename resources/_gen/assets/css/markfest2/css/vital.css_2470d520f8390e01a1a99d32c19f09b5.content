@@ -457,3 +457,29 @@ li a, p a {
     color: #fff;
     text-decoration: none;
   }
+
+.prevNextBar {
+  margin-top: 4rem;
+  display: flex;
+  text-align: center;
+}
+
+.prevNextBar h4 {
+    font-size: 1rem;
+    margin: 0 0 1rem;
+  }
+
+.prevNextBar > * {
+    width: 50%;
+  }
+
+.prevNextBar a {
+    display: block;
+    padding: 1rem;
+    border: 2px solid currentColor;
+    text-decoration: none
+  }
+
+.prevNextBar a:hover {
+      opacity: 0.8;
+    }
