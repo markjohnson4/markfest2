@@ -9,7 +9,7 @@ weight: 1
 
 Do you want to broadcast a charity you love, raise money for it, hear about some other charities, donate some money yourself, and feel great for donating money?!
 
-Then participate in this contest!
+Then compete in this contest!  Or just come and watch!
 
 Each participant will have 2 minute to sell the group on a charity they love.  Then up to 3 minutes will be allowed for questions from the audience.
 
